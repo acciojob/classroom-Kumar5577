@@ -21,13 +21,13 @@ public void addStudentTeacherPair(String name1,String name2){
 public Student getStudentByName(String name){
     return studentRepository.getStudentByName(name);
 }
-public List<Student> getAllStudents(){
+public List<String> getAllStudents(){
     return studentRepository.getAllStudents();
 }
 public Teacher getTeacherByName(String name){
     return studentRepository.getTeacherByName(name);
 }
-public List<Student> getStudentsByTeacherName(String name){
+public List<String> getStudentsByTeacherName(String name){
     return studentRepository.getStudentsByTeacherName(name);
 }
 public void deleteTeacherByName(String name){
